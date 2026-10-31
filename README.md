@@ -1,7 +1,5 @@
-# T054-PS-084
-Capstone Project – Procurement Engine with Vendor Scoring, Quotation Comparison and Three-Way Match
-
 # T054-PS-084 - Procurement Engine
+Capstone Project – Procurement Engine with Vendor Scoring, Quotation Comparison and Three-Way Match
 
 A complete, dependency-free Python 3.10+ implementation of the PS-084 procure-to-pay capstone. JSON goes in and audit-friendly JSON decisions come out.
 
