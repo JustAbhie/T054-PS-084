@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t054-ps-084"
+version = "1.0.0"
+description = "PS-084 procure-to-pay engine"
+requires-python = ">=3.10"
+
+[project.scripts]
+p2p-engine = "p2p_engine.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["p2p_engine*"]

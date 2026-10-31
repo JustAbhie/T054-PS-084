@@ -1,0 +1,23 @@
+{
+  "buyer_state": "MH",
+  "distances_km": {"KA|MH": "100"},
+  "exchange_rates": {"USD|2026-10-10": "84.50"},
+  "vendors": [
+    {"vendor_id": "V-MSME", "state": "KA", "is_msme": true, "on_time_delivery_pct": "96", "rejection_pct": "2"},
+    {"vendor_id": "V-REGULAR", "state": "KA", "is_msme": false, "on_time_delivery_pct": "100", "rejection_pct": "0"},
+    {"vendor_id": "V-EXPENSIVE", "state": "KA", "is_msme": false, "on_time_delivery_pct": "80", "rejection_pct": "10"}
+  ],
+  "items": [{"item_id": "BEARING", "description": "Industrial bearing", "weight_kg": "10"}],
+  "operations": [
+    {"type": "approve_requisition", "data": {"requisition_id": "REQ-1", "item_id": "BEARING", "quantity": "10", "unit_price": "1000", "requested_on": "2026-10-16"}},
+    {"type": "award", "data": {"rfq_close": "2026-10-20", "quotes": [
+      {"quote_id": "Q-1", "rfq_id": "RFQ-1", "vendor_id": "V-MSME", "item_id": "BEARING", "quantity": "10", "unit_price": "1000", "freight": "0", "currency": "INR", "quoted_at": "2026-10-19T10:00:00", "valid_until": "2026-11-10"},
+      {"quote_id": "Q-2", "rfq_id": "RFQ-1", "vendor_id": "V-REGULAR", "item_id": "BEARING", "quantity": "10", "unit_price": "1030", "freight": "0", "currency": "INR", "quoted_at": "2026-10-19T11:00:00", "valid_until": "2026-11-10"},
+      {"quote_id": "Q-3", "rfq_id": "RFQ-1", "vendor_id": "V-EXPENSIVE", "item_id": "BEARING", "quantity": "10", "unit_price": "1200", "freight": "0", "currency": "INR", "quoted_at": "2026-10-19T12:00:00", "valid_until": "2026-11-10"}
+    ]}},
+    {"type": "create_po", "data": {"po_id": "PO-1", "vendor_id": "V-MSME", "item_id": "BEARING", "quantity": "10", "unit_price": "1000", "freight": "0", "due_date": "2026-10-25"}},
+    {"type": "receive_goods", "data": {"po_id": "PO-1", "quantity": "10", "received_on": "2026-10-24"}},
+    {"type": "match_invoice", "data": {"invoice_id": "INV-1", "po_id": "PO-1", "vendor_id": "V-MSME", "quantity": "10", "unit_price": "1000", "total": "10000", "received_on": "2026-10-24"}},
+    {"type": "payment_run", "data": {"run_date": "2026-12-07"}}
+  ]
+}
