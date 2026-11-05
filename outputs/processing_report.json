@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "requisition_log.csv": 39,
+    "award_decisions.csv": 60,
+    "purchase_orders.csv": 20,
+    "receipts_log.csv": 37,
+    "match_results.csv": 37,
+    "payment_runs.csv": 30
+  },
+  "errors": []
+}

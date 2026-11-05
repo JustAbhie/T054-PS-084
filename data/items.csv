@@ -1,0 +1,31 @@
+item_id,description,category,uom,unit_weight_kg,gst_pct,specification,reference_price
+ITM-001,CRCA steel sheet 1.2 mm 1250x2500,RAW,NOS,29.40,18.0,As per drawing,3150.00
+ITM-002,Aluminium rod 6061 dia 40 mm x 3 m,RAW,NOS,10.20,18.0,Make: approved list only,2850.00
+ITM-003,MS angle 50x50x5 mm x 6 m,RAW,NOS,22.60,18.0,IS/BIS marked,1650.00
+ITM-004,Copper busbar 25x5 mm x 3 m,RAW,NOS,3.40,18.0,IS/BIS marked,4100.00
+ITM-005,SS 304 pipe 1 inch x 6 m,RAW,NOS,9.80,18.0,IS/BIS marked,3900.00
+ITM-006,HDPE granules (25 kg bag),RAW,BAG,25.00,18.0,Make: approved list only,2600.00
+ITM-007,3-phase induction motor 5.5 kW,ELEC,NOS,48.00,18.0,Test certificate required,23500.00
+ITM-008,Armoured cable 4C x 16 sq mm (100 m),ELEC,ROLL,95.00,18.0,Test certificate required,41000.00
+ITM-009,MCB 32A 4-pole,ELEC,NOS,0.60,18.0,IS/BIS marked,1450.00
+ITM-010,Variable frequency drive 7.5 kW,ELEC,NOS,9.50,18.0,Test certificate required,42000.00
+ITM-011,LED high-bay 150 W,ELEC,NOS,4.20,12.0,As per drawing,4800.00
+ITM-012,Control panel enclosure 800x600,ELEC,NOS,38.00,18.0,As per drawing,18500.00
+ITM-013,5-ply corrugated carton 600x400x400,PACK,NOS,0.90,12.0,IS/BIS marked,62.00
+ITM-014,Wooden pallet 1200x1000 (4-way),PACK,NOS,22.00,12.0,Test certificate required,1150.00
+ITM-015,Stretch film 23 micron 500 mm,PACK,ROLL,3.50,18.0,IS/BIS marked,690.00
+ITM-016,BOPP tape 72 mm x 65 m,PACK,ROLL,0.40,18.0,Test certificate required,95.00
+ITM-017,Deep groove ball bearing 6208-2RS,MRO,NOS,0.37,18.0,OEM spec sheet attached,520.00
+ITM-018,Hydraulic oil ISO VG 68 (210 L),MRO,DRUM,190.00,18.0,OEM spec sheet attached,31500.00
+ITM-019,Nitrile safety gloves (pair),MRO,PAIR,0.10,12.0,As per drawing,85.00
+ITM-020,Safety shoes steel toe,MRO,PAIR,1.40,18.0,IS/BIS marked,1250.00
+ITM-021,Angle grinder 125 mm 1200 W,MRO,NOS,2.50,18.0,OEM spec sheet attached,6000.00
+ITM-022,Welding electrode E6013 3.15 mm (5 kg),MRO,PKT,5.00,18.0,Test certificate required,980.00
+ITM-023,Business laptop i5 16 GB 512 GB,IT,NOS,1.60,18.0,Test certificate required,62000.00
+ITM-024,24-inch IPS monitor,IT,NOS,4.50,18.0,Make: approved list only,11800.00
+ITM-025,Network switch 24-port managed,IT,NOS,3.20,18.0,As per drawing,26500.00
+ITM-026,UPS 3 kVA online,IT,NOS,28.00,18.0,Test certificate required,48500.00
+ITM-027,Thermal label printer 4-inch,IT,NOS,2.40,18.0,As per drawing,21000.00
+ITM-028,Barcode scanner 2D wireless,IT,NOS,0.40,18.0,Make: approved list only,7200.00
+ITM-029,Pneumatic cylinder 63 bore 200 stroke,MRO,NOS,3.10,18.0,Test certificate required,7400.00
+ITM-030,Gear box worm reducer 1:30,ELEC,NOS,21.00,18.0,As per drawing,15800.00

@@ -1,0 +1,13 @@
+vendor_id,vendor_name,msme,vendor_type,country,state,currency,gstin,categories,ontime_pct,rejection_pct
+VEN-01,Shree Ganesh Steel Traders,true,DOMESTIC,India,Karnataka,INR,29UQHCA9114D1ZU,RAW;MRO;PACK,72.0,8.0
+VEN-02,Indraprastha Tech Distributors,false,DOMESTIC,India,Delhi,INR,07XLGCN4556Z1ZY,IT;ELEC,78.0,4.5
+VEN-03,Deccan Electricals,true,DOMESTIC,India,Telangana,INR,36CTTCK4729K1Z1,ELEC;MRO;IT,90.0,4.5
+VEN-04,Western India Power Systems Ltd,false,DOMESTIC,India,Maharashtra,INR,27QPCCN9871P1ZY,ELEC,99.0,8.0
+VEN-05,Keystone Industrial Inc,false,IMPORT,USA,,USD,,ELEC;IT;MRO,92.5,11.0
+VEN-06,Sabarmati Packaging Industries,true,DOMESTIC,India,Gujarat,INR,24JPUCR8809H1Z8,PACK,72.0,11.0
+VEN-07,Silicon Plateau Systems,false,DOMESTIC,India,Karnataka,INR,29XDYCV6727H1Z7,IT,95.0,8.0
+VEN-08,Rheinmetall Antriebstechnik GmbH,false,IMPORT,Germany,,EUR,,ELEC;RAW,97.0,3.5
+VEN-09,Hooghly Engineering Works,false,DOMESTIC,India,West Bengal,INR,19TNXCK8876P1ZC,RAW;ELEC;MRO,88.0,3.5
+VEN-10,Ganga Industrial Supplies,true,DOMESTIC,India,Uttar Pradesh,INR,09ABECW9787M1ZC,MRO;RAW;ELEC,88.0,8.0
+VEN-11,Malabar Pack Solutions,true,DOMESTIC,India,Kerala,INR,32QSRCP8045Q1Z6,PACK;MRO,95.0,11.0
+VEN-12,Kaveri Metals Pvt Ltd,false,DOMESTIC,India,Tamil Nadu,INR,33JQFCP7147M1Z6,RAW,84.0,6.0
