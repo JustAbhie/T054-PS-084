@@ -37,7 +37,7 @@ T054-PS-084/
 ### Windows (PowerShell / VS Code Terminal)
 
 ```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/JustAbhie/T054-PS-084/tree/main>
 cd T054-PS-084
 
 py -m venv .venv
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ### macOS / Linux (Terminal / VS Code Terminal)
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/JustAbhie/T054-PS-084/tree/main>
 cd T054-PS-084
 
 python3 -m venv .venv
